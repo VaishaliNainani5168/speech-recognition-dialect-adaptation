@@ -8,26 +8,6 @@ This project aims to build an AI-based speech recognition system capable of adap
 - Fine-tuned Wav2Vec2 model for ASR.
 - Real-time transcription and error correction using NLP.
 
-## Directory Structure:
-Speech Recognition & Dialect Adaptation/
-├── app/
-│ └── streamlit_app.py
-├── data/
-│ ├── raw/
-│ └── processed/
-├── models/
-│ └── wav2vec2_dialect/
-├── src/
-│ ├── config.yaml
-│ ├── data_preprocessing.py
-│ ├── train_asr.py
-│ ├── transcribe.py
-│ ├── postprocess_nlp.py
-│ └── helper_functions.py
-├── requirements.txt
-├── README.md
-
-
 ## Setup:
 1. Clone the repository:
    ```bash
